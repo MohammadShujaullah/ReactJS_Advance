@@ -1,7 +1,8 @@
+//we use custom hooks ,in this project
+
 import { useState } from 'react'
 import { InputBox } from "./components/Input"
 import useCurrencyinfo from './hooks/useCurrencyinfo';
-
 
 
 
