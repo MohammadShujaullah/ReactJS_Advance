@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const currencyRates = {
+const currencyRates = {   // adding hard coded values of countries , because the API is very Old and not working now
   usd: {
     inr: 83.2,
     eur: 0.92,
