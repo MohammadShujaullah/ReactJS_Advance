@@ -1,6 +1,6 @@
 import React from "react";
 import{useEffect,useState} from "react"
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";  // new hook of react, used here , its work is jab bhi mera arrow github pr jaega, jo header pr ha, ussi time hi ,data fetch hona start hojaegaa, or wo cache main store ho jegaa , means this hook is used for fast fetching  or optimise data fetch
 export default function Github() {
     const data=useLoaderData()
 
