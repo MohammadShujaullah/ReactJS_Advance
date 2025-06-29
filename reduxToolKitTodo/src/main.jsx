@@ -4,11 +4,11 @@ import './index.css'
 import App from './App.jsx'
 
 import { Provider } from 'react-redux'
-import { Store } from './App/store.js'
+import { Store } from './App/store.js'     /// here likewise from contextAPIs we do wrapping , so here import Provider from react redux
 
 
 createRoot(document.getElementById('root')).render(
-  <Provider store={Store}>
+  <Provider store={Store}>     
     <App />
   </Provider>,
 )
