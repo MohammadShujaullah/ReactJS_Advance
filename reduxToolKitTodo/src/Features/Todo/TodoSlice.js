@@ -39,5 +39,5 @@ export const TodoSlice = createSlice({   // createSlice main object pass hota ha
 });
 
 
-export const { addTodo, removeTodo, updateTodo } = TodoSlice.actions;
-export default TodoSlice.reducer;
+export const { addTodo, removeTodo, updateTodo } = TodoSlice.actions;    // reducer ke function ko export kraate han
+export default TodoSlice.reducer;                 // reducer ko bhi export kraate , dono ko alag alag export kraate han
